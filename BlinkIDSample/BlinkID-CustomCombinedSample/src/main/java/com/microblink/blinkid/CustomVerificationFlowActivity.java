@@ -576,7 +576,7 @@ public class CustomVerificationFlowActivity extends AppCompatActivity implements
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(title)
                 .setMessage(message)
-                .setNeutralButton(getString(R.string.mb_ok), new DialogInterface.OnClickListener() {
+                .setNeutralButton(getString(android.R.string.ok), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         setResult(RESULT_CANCELED);
